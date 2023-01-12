@@ -35,11 +35,11 @@ public class Generics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
-        int num1 = sc.nextInt();
+        float num1 = sc.nextFloat();
         System.out.println("Enter a number");
-        int num2 = sc.nextInt();
+        float num2 = sc.nextFloat();
         System.out.println("Enter a number");
-        int num3 = sc.nextInt();
+        float num3 = sc.nextFloat();
         MyGeneric myGeneric = new MyGeneric(num1, num2, num3);
         MyGeneric.max(num1, num2, num3);
     }
