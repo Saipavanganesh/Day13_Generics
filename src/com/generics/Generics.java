@@ -34,12 +34,12 @@ class MyGeneric<T> {
 public class Generics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
-        float num1 = sc.nextFloat();
-        System.out.println("Enter a number");
-        float num2 = sc.nextFloat();
-        System.out.println("Enter a number");
-        float num3 = sc.nextFloat();
+        System.out.println("Enter a word");
+        String num1 = sc.next();
+        System.out.println("Enter a word");
+        String num2 = sc.next();
+        System.out.println("Enter a word");
+        String num3 = sc.next();
         MyGeneric myGeneric = new MyGeneric(num1, num2, num3);
         MyGeneric.max(num1, num2, num3);
     }
